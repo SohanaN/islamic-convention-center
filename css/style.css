@@ -29,9 +29,10 @@ custom css
     cursor: pointer;
 }
 .sn-active{
-background-color: #fffec3;
-position: relative;
-top: -20px;
+    background-color: #fffec3;
+    position: relative;
+    top: -20px;
+    margin-bottom: 50px;
 }
 .best-sell{
     background-color: red;
@@ -57,3 +58,15 @@ top: -20px;
     background-blend-mode: overlay;
     position: sticky;
 }
+/* Media query */
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px){ 
+    /* banner */
+    .carousel-item{
+        height:300px;
+    }
+    /* package */
+    .sn-active{
+        margin-top: 30px;
+    }
+ }
