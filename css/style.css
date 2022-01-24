@@ -81,7 +81,7 @@ custom css
     /* footer  */
     .sn-ftext{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -91,5 +91,6 @@ custom css
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
  }
