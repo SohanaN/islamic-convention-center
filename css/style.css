@@ -65,6 +65,11 @@ custom css
     .carousel-item{
         height:300px;
     }
+    /* about */
+    .sn-btn{
+        display: flex;
+        justify-content: center;
+    }
     /* package */
     .sn-active{
         margin-top: 30px;
@@ -72,5 +77,9 @@ custom css
     /* FAQ */
     .sn-faq{
         flex-direction: column-reverse;
+    }
+    /* footer  */
+    .sn-app{
+        justify-content: center;
     }
  }
