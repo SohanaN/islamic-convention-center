@@ -42,7 +42,10 @@ top: -20px;
     right: 0;
     top: -10px;
 }
-
+.sn-toast .toast{
+    width: 260px;
+    border-left: 5px solid #bbcbff;
+}
 /* venu */
 .sn-venu{
     background-image: url('../images/venu.jpg');
