@@ -31,12 +31,25 @@ custom css
 .sn-active{
 background-color: #fffec3;
 position: relative;
+top: -20px;
 }
-.hot{
+.best-sell{
     background-color: red;
     color: white;
-    width: 50px;
+    font-size: 12px;
+    width: 80px;
     position: absolute;
     right: 0;
     top: -10px;
+}
+
+/* venu */
+.sn-venu{
+    background-image: url('../images/venu.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(82, 72, 72, 0.25);
+    background-blend-mode: overlay;
+    position: sticky;
 }
