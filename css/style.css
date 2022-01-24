@@ -69,4 +69,8 @@ custom css
     .sn-active{
         margin-top: 30px;
     }
+    /* FAQ */
+    .sn-faq{
+        flex-direction: column-reverse;
+    }
  }
