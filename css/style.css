@@ -79,7 +79,17 @@ custom css
         flex-direction: column-reverse;
     }
     /* footer  */
-    .sn-app{
+    .sn-ftext{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
         justify-content: center;
+    }
+    .sn-app{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
  }
