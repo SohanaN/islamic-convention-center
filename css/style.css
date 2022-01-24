@@ -5,7 +5,7 @@ body{
 }
 
 /* common css */
-.sn-gradiant{
+.sn-gold-gradiant{
     background-image: linear-gradient(45deg, #f5f387, #faf9ee);
 }
 .sn-color{
@@ -18,13 +18,18 @@ body{
     font-weight: 600;
 }
 
-/* custom css */
+/* .................
+custom css
+.................. */
+
+/* package */
+
 .sn-card:hover, .sn-active:hover{
     background-image: linear-gradient(-45deg, #f5f387, #faf9ee);
     cursor: pointer;
 }
 .sn-active{
-background-color: #f5f38f;
+background-color: #fffec3;
 position: relative;
 }
 .hot{
